@@ -1,0 +1,36 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+button{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 12px 15px;
+    cursor: pointer;
+    background-color: chocolate;
+    color: aliceblue;
+    font-weight: 2.5em;
+    font-family: cursive;
+    font-size: larger;
+    border-radius: 30px;
+    outline: 2px solid black;
+
+}
+body{
+    
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    background-color: beige;
+    
+}
+button:hover{
+    background-color: black;
+    color: aliceblue;
+    outline: 2px solid red;
+}
